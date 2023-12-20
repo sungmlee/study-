@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이달의 최종 체중 감량</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        #thumbnails {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .thumbnail {
+            width: 100%;
+            text-align: center;
+        }
+
+        .thumbnail img {
+            object-fit: cover;
+            width: 100%;
+            height: 200px; /* 이미지 높이 설정 */
+        }
+
+        #pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .pagination-link {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <h1 style="font-size: 20pt;">최다 체중감량</h1>
+    </div>
+
+    <div id="thumbnails">
+        <!-- 1월 -->
+        <div class="thumbnail">
+            <img src="https://mblogthumb-phinf.pstatic.net/MjAxODA0MTdfNTcg/MDAxNTIzOTQ5MTcyMTQz.-pc6SN4zQFXyq59BTyBJcwnJqJ5GWuRcTrliVw-MXisg.CYZW9eUG3bdIopT-m-YP_jHCLEXnF2eABsFPMUGhZEog.JPEG.0120mint/1.jpg?type=w800" alt="January Winner">
+            <p>1월의 우승자</p>
+        </div>
+        <!-- 2월 -->
+        <div class="thumbnail">
+            <img src="https://data.0app0.com/diet/Board/4504/p_4503639_1579210555_1.jpg" alt="February Winner">
+            <p>2월의 우승자</p>
+        </div>
+        <!-- 3월 -->
+        <div class="thumbnail">
+            <img src="https://img.seoul.co.kr/img/upload/2016/08/11/SSI_20160811151556_V.jpg" alt="March Winner">
+            <p>3월의 우승자</p>
+        </div>
+        <!-- 4월 -->
+        <div class="thumbnail">
+            <img src="https://img.seoul.co.kr/img/upload/2016/08/11/SSI_20160811151412_V.jpg" alt="April Winner">
+            <p>4월의 우승자</p>
+        </div>
+        <!-- 5월 -->
+        <div class="thumbnail">
+            <img src="https://img1.daumcdn.net/thumb/R658x0.q70/?fname=http://t1.daumcdn.net/news/201608/11/seoul/20160811153108610qjes.jpg" alt="May Winner">
+            <p>5월의 우승자</p>
+        </div>
+        <!-- 6월 -->
+        <div class="thumbnail">
+            <img src="https://cdn.allets.com/500/2018/10/19/500_352741_1539938659.jpeg" alt="June Winner">
+            <p>6월의 우승자</p>
+        </div>
+        <!-- 7월 -->
+        <div class="thumbnail">
+            <img src="https://cdn.allets.com/500/2018/10/08/500_344685_1538990453.jpeg" alt="July Winner">
+            <p>7월의 우승자</p>
+        </div>
+        <!-- 8월 -->
+        <div class="thumbnail">
+            <img src="https://img.insight.co.kr/static/2019/04/11/700/8536gtmr0f13598956p7.jpg" alt="August Winner">
+            <p>8월의 우승자</p>
+        
+        </div>
+    </div>
+
+    <div id="pagination">
+        <a href="#" class="pagination-link">1</a>
+        <a href="#" class="pagination-link">2</a>
+        <a href="#" class="pagination-link">3</a>
+        <!-- 필요에 따라 페이지 수 조절 -->
+    </div>
+
+</body>
+</html>
